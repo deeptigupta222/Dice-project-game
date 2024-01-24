@@ -16,7 +16,7 @@ document.getElementById("start").addEventListener("click", function () {
   });
   
   function makeSound() {
-    let audio = new Audio("assests/sound.mp3"); //for sound
+    var audio = new Audio("assests/sound.mp3"); //for sound
     audio.play();
   }
 
